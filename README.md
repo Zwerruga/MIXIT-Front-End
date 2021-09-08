@@ -1,6 +1,6 @@
 # Welcome Frontend task :brain:
 
-An interactive 🏂 [main screen](https://www.figma.com/file/zedO0LwkerytSEVWr9ukLj/MIXIT-TEST?node-id=0%3A1&viewport=241%2C48%2C0.07) of an online store🛍️, a link from which leads to a specific 📄 page where you can start watching a 📹 [video](https://www.youtube.com/watch?v=ReTGM_h52q0). <a href="https://e-commerce-model-42480.web.app/">:link:Online demo link:link:</a>
+An interactive 🏂 [main screen](https://www.figma.com/file/zedO0LwkerytSEVWr9ukLj/MIXIT-TEST?node-id=0%3A1&viewport=241%2C48%2C0.07) of an online store🛍️, a link from which leads to a specific 📄 page where you can start watching a 📹 [video](https://www.youtube.com/watch?v=ReTGM_h52q0). <a href="https://e-commerce-model-42480.web.app/">:link:Online demo link:link:</a><br/>
 `$ npm i && npm start`
 
 ![Demonstration of functionality](https://i.ibb.co/JKNbC39/Peek-2021-09-08-07-02.gif)<br/>
