@@ -6,7 +6,7 @@ An interactive 🏂 [main screen](https://www.figma.com/file/zedO0LwkerytSEVWr9u
 ![Demonstration of functionality](https://i.ibb.co/JKNbC39/Peek-2021-09-08-07-02.gif)<br/>
 :ballot_box_with_check: [< Header />](https://github.com/Zwerruga/MIXIT.-Front-End./blob/main/src/components/Header.jsx) - contains the main🌶️ **< Menu />**, 🌠**< Logo />** and an element for opening the shopping 🛒**< Cart/>.**<br/>
 :ballot_box_with_check: [< Title />](https://github.com/Zwerruga/MIXIT.-Front-End./blob/main/src/components/Title.jsx) - 📘 non-clickable text _`(user-select: none)`_<br/>
-:ballot_box_with_check: [< Details />](https://github.com/Zwerruga/MIXIT.-Front-End./blob/main/src/components/ButtonDetails.jsx)🔘 button - a link :link: to any page.<br/>
+:ballot_box_with_check: [< DetailsButton />](https://github.com/Zwerruga/MIXIT.-Front-End./blob/main/src/components/ButtonDetails.jsx)🔘 - a link :link: to any page.<br/>
 :ballot_box_with_check: [Image](https://github.com/Zwerruga/MIXIT.-Front-End./blob/main/src/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-08-18%20%D0%B2%2010.50%201.png) - 🖼️ is a banner in the default state when you go to the main page of the site;<br/>
 :ballot_box_with_check: [Video ](https://github.com/Zwerruga/MIXIT.-Front-End./blob/main/src/components/Player.jsx) 📹 and controls 🖱️:
 
