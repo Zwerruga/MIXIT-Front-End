@@ -1,0 +1,60 @@
+:root {
+  --radius: 100px;
+  --frame-size: 50px;
+  --d-outer: calc(var(--radius) * 2);
+  --d-inner: calc(var(--radius) * 2 - var(--frame-size));
+}
+@media (max-width: 768px) {
+  :root {
+    --radius: 58px;
+  }
+}
+.circle {
+  position: absolute;
+  top: 55%;
+  right: 65%;
+  width: var(--d-outer);
+  height: var(--d-outer);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+.circle .logo {
+  position: absolute;
+  width: var(--d-inner);
+  height: var(--d-inner);
+}
+.circle .logo svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle .text {
+  position: absolute;
+  animation: rotateText 10s linear infinite;
+}
+.circle .text svg {
+  width: var(--d-outer);
+  height: var(--d-outer);
+}
+.circle:hover .text {
+  animation-play-state: paused;
+}
+@keyframes rotateText {
+  0% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .circle {
+    top: 75%;
+    right: 5%;
+  }
+}

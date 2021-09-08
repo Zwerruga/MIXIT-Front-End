@@ -1,0 +1,31 @@
+.page-title {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-30%);
+  display: flex;
+  flex-direction: column;
+  left: calc(5px + (240 - 5) * ((100vw -320px) / (1920-320)));
+  font-style: italic;
+  user-select: none;
+  z-index: 5;
+}
+.page-title__title {
+  white-space: nowrap;
+  font-size: var(--font-size-xl);
+  text-align: end;
+  font-weight: normal;
+}
+.page-title__subtitle {
+  font-size: var(--font-size-l);
+  text-align: end;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    left: 0;
+    transform: translate(-20%, -20%) rotate(-90deg);
+    padding-left: 0;
+  }
+}
