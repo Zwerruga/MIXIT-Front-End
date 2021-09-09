@@ -1,8 +1,17 @@
-import React, { memo } from 'react'
+import React, { memo, useState } from 'react'
 
-export default memo(function VolumeButton({ isMuted = false, onClick = () => { } }) {
+export default memo(function VolumeButton({ player }) {
+    const [isMuted, setIsMuted] = useState(false)
+
+    const handleMute = () => {
+        setIsMuted(isMuted => {
+            isMuted ? player.target.unMute() : player.target.mute()
+            return !isMuted
+        })
+    }
+
     return (
-        <div className="control-btn volume-btn" onClick={onClick} >
+        <div className="control-btn volume-btn" onClick={handleMute} >
             <p className="volume-btn__title">{isMuted ? "Включить звук" : "Выключить звук"}</p>
             <div className="volume-btn__btn">
                 {isMuted ? <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
