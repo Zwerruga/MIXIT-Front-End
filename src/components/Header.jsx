@@ -1,10 +1,10 @@
-import React, { memo, useMemo } from 'react'
+import React, { memo } from 'react'
 
 import { useWindowSize } from '../utils/useWindowSize.js'
 
 export default memo(function Header() {
     const size = useWindowSize()
-    const scalingLogo = useMemo(() => 0.5 + 0.5 * ((size.width - 320) / (1920 - 320)), [size.width])
+    const scalingLogo = 0.5 + 0.5 * ((size.width - 320) / (1920 - 320))
 
     return (
         <header className="header">
